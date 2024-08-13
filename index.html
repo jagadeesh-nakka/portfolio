@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body data-spy="scroll">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id="navbar-example2">
+        <h2><a class="navbar-brand" href="#"><span style="color:red;">J</span>agadeesh</a></h2>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0 nav nav-pills" id="targeting">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main" data-target="#targeting" data-offset="0">
+        <div class="py-4 mt-2 row jumbotron" id="about">
+            <div class="col-sm-7 pt-4 mb-0 about-content">
+                <h5 class="lead">Enthusiastic and dedicated Information Technology student with a strong foundation in engineering principles, seeking an entry-level position at a respected organization. I am eager to apply my technical skills, passion for continuous learning, and strong work ethic to contribute effectively to a dynamic team.</h5>
+                <hr/>
+                <p class="ml-4"><em>Fullstack Developer</em></p>
+            </div>
+            <img class="img-thumbnail rounded-circle profile-image" src="./jagadeesh.png">
+
+           <!-- <img class="img-thumbnail rounded-circle col-sm-5 float-right clearfix" src="./jagadeesh.png" alt="Jagadeesh Profile Picture">-->
+        </div>
+
+        <div class="row jumbotron mb-0 pt-2" id="portfolio">
+            <h2 class="pb-2 border-bottom border-primary">Portfolio</h2>
+            <div class="row">
+                <div class="card my-2 col-sm-6 col-lg-4">
+                    <div class="card-header"><h4>Project-1</h4></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Face Recognition using OpenCV</h5>
+                        <p class="card-text">Developed a Face Recognition system using OpenCV, showcasing proficiency in computer vision and image processing to create an innovative solution for identity verification.</p>
+                    </div>
+                </div>
+                <div class="card my-2 col-sm-6 col-lg-4">
+                    <div class="card-header"><h4>Project-2</h4></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Employee Management System using Java</h5>
+                        <p class="card-text">Designed and implemented an Employee Management System in Java, showcasing strong programming skills and the ability to create efficient and user-friendly applications for organizational workforce management.</p>
+                    </div>
+                </div>
+                <div class="card my-2 col-sm-6 col-lg-4">
+                    <div class="card-header"><h4>Project-3</h4></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Educational Static Website - Fun with Physics</h5>
+                        <p class="card-text">Created "Fun with Physics," a static educational website, highlighting my web development skills and passion for making learning engaging through interactive physics content.</p>
+                    </div>
+                </div>
+                <div class="card my-2 col-sm-6 col-lg-4">
+                    <div class="card-header"><h4>Project-4</h4></div>
+                    <div class="card-body">
+                        <h5 class="card-title">Multiplication Game with Timer and Score Tracking</h5>
+                        <p class="card-text">An interactive game designed to help users practice multiplication. Built with HTML, CSS, and JavaScript, it challenges users to solve multiplication problems under a timer, with instant feedback on performance.</p>
+                    </div>
+                </div>
+                <div class="card my-2 col-sm-6 col-lg-4">
+                    <div class="card-header"><h4>Achievements</h4></div>
+                    <div class="card-body">
+                        <p class="card-text">Runner-up in Tejas2k24 at Anurag University</p>
+                        <p class="card-text">Selected for Medha Sampurna Siksha Scholarship</p>
+                        <p class="card-text">Participated in Telangana Physics Forum (State Level)</p>
+                    </div>
+                </div>
+                <div class="card my-2 col-sm-6 col-lg-4">
+                    <div class="card-header"><h4>Technical Skills</h4></div>
+                    <div class="card-body">
+                        <p class="card-text">C, Java, Data Structures, DBMS, Web Development, SQL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row jumbotron" id="contact">
+            <h3 class="col-12 text-center border-bottom border-warning pb-2">Contact Me</h3>
+            <div class="mt-5 border-left border-success col-sm-6">
+                <h6>You can contact me at any time; I am available by:</h6>
+                <hr>
+                <p>Email: xxxxx@gmail.com</p>
+                <hr>
+                <p>Phone: xxxxxxxx</p>
+                <hr>
+            </div>
+            <div class="col-sm-6 mt-5 border-left border-info">
+                <h6>You Can Message Me</h6>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputName">Name</label>
+                        <input type="text" class="form-control" id="exampleInputName" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputNumber">Phone Number</label>
+                        <input type="number" class="form-control" id="exampleInputNumber" placeholder="Enter number">
+                        <small id="numberHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="textarea">Message</label>
+                        <textarea class="form-control" id="textarea" placeholder="Write message"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row pt-3 bg-secondary">
+            <div class="social col-sm-6 text-sm-center">
+                <h2>I Am In Network</h2>
+                <p>You can always get me here</P>
+                    <p>You can always get me here</P>
+                    </div>
+                    
+                    <div class="col-sm-6 mt-2 text-center align-center">
+                      <a href="" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                      <a href="https://www.linkedin.com/in/jagadeesh-nakka-b86b78235/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                      <a href="" target="_blank"><i class="fab fa-github-square"></i></a>
+                      <a href="" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                      <a href="hhttps://www.linkedin.com/in/jagadeesh-nakka-b86b78235/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                      <a href="https://github.com/jagadeesh-nakka" target="_blank"><i class="fab fa-github-square"></i></a>
+                    </div>
+                    
+                  </div>
+              </div> 
+            <div class="footer text-center bg-info">
+              <h5 class="pt-4 pb-4">Jagadeesh@ 2024. All RIghts Reserved</h5>
+            </div>
+                
+             
+              
+                     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+            </body>
+            
+          </html>
+          

@@ -1,0 +1,53 @@
+
+nav{background:#00B8D4;}
+#contact a{
+  color:#37474F;
+  font-size:30px;
+  padding:0 3px;
+}
+#contact a:hover{
+  color:#00B0FF;
+}
+nav li a:onclick{
+  background:#FF5722;
+}
+/*  media querie*/
+@media (max-width:576px){
+  .main{
+    width:90%;
+    margin:0 auto;
+  }
+  #contact .social{
+    border-bottom:1px solid black;
+  }
+}
+@media (min-width: 576px) { 
+   .main{
+    width:90%;
+    margin:0 auto;
+  }
+  
+}
+
+@media (min-width: 768px) { 
+    .main{
+    width:80%;
+    margin:0 auto;
+  }
+}
+
+@media (min-width: 992px) { 
+  .main{
+    width:70%;
+    margin:0 auto;
+  }
+  #about .about-content h5{
+    padding-top:20px;
+  }
+}
+.profile-image {
+    width: 200px; /* Adjust the size as needed */
+    height: 320px; /* Adjust the size as needed */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border-radius: 50%; /* Makes the image circular */
+}
